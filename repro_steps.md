@@ -1,6 +1,7 @@
 Steps:
 
 - install expo example app with: `npx create-expo-app rnvc-ios-perm-repro`
+- navigate to prohect: `cd rnvc-ios-perm-repro`
 - install rnvc (4.4.2): `npx expo install react-native-vision-camera`
 - modify code:
   edit /app/(tabs)/index.tsx with:
