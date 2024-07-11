@@ -5,7 +5,16 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
+import { Camera } from 'react-native-vision-camera';
+import { useEffect } from 'react';
+
 export default function HomeScreen() {
+  useEffect(() => {
+    console.log('foobar')
+    if (false) {
+      c = Camera
+    }
+  }, [])
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
